@@ -1,0 +1,74 @@
+body {
+	background-image: url('pokemonWallpaper.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100%;
+}
+
+#menu {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  //background-color: #222;
+  font-family: Arial;
+
+}
+#menu ul li {
+  display: inline-block;
+  //background-color: red;
+  font-size: 3em;
+  margin-top: -1%;
+
+}
+
+#menu ul li a{
+  color: orange;
+}
+
+#menu ul li a:hover {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  transition: all 1.5s ease;
+  color: orange;
+}
+
+#drpcon{
+  background-color: #222;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  text-align: center;
+}
+
+#backbtn {
+	margin: 2%;
+	height: 104px;
+} 
+
+#backbtn:hover {
+	height: 120px;
+	transform: rotate(-7deg);
+}
+
+#vContain{
+	width: 100%;
+	opacity: none;
+}
+
+#insideWell{
+	opacity: .8;
+}
+
+#insideWell p{
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#pokemonTheme{
+	display: none;
+	//opacity: 0;
+}
+
+#ppToggle {
+	cursor: pointer;
+}

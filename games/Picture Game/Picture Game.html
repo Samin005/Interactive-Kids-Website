@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    </head>
+    
+
+    <body  onload="gameStart()">
+    <script src="myscript.js"></script>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="javascript:history.back()"><img src="backButton.png" id="backbtn"></a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <nav class="navbar navbar-inverse" id="menu">                   
+                        <ul class="nav navber-nav">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="../Rock Paper Scissors/Rock, paper & scissors.html">Rock Paper & Scissors</a></li>
+                                    <li><a href="#">Picture Game</a></li>
+                                </ul>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="../../watch/pokemon/pokemon.html">Pokemon</a></li>
+                                    <li><a href="../../watch/spongbob/spongbob.html">Spongebob Squarepants</a></li>
+                                </ul>   
+                            </li>
+                            <li><a href="../../diary/diary.php">Diary</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+                <div class="pull-right">
+                    <span class="glyphicon glyphicon-pause" class="pull-right" onclick="ppChange()" id="ppToggle"></span>
+                </div>
+                <audio controls loop autoplay id="rugratsTheme" class="pull-right">
+                    <source src="../../rugratsTheme.mp3"></source>
+                </audio>
+                </div>
+            </div>
+        </div>
+
+        <div calss="row">
+            <div class="col-md-12 text-center" id="ans">
+            </div>
+        </div>
+
+        <div calss="row">
+            <div class="col-md-12 text-center" id="result">
+            </div>
+        </div>
+
+        <div calss="row">
+            <div class="col-md-12">
+                <div class="pull-right" id="userScore"></div>
+            </div>
+        </div>
+
+        <div>
+            <div calss="row">
+                <div class="col-md-6 text-center">
+                    <div class="pull-right" id="img1" onclick="verify(1)"></div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="pull-left" id="img2" onclick="verify(2)"></div>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+
+            <div calss="row">
+                <div class="col-md-6 text-center">
+                    <div class="pull-right" id="img3" onclick="verify(3)"></div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="pull-left" id="img4" onclick="verify(4)"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

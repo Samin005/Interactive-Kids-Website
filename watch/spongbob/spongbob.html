@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+
+    </head>
+
+    <body style="background-color: orange;">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="javascript:history.back()"><img src="backButton.png" id="backbtn"></a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <nav class="navbar navbar-inverse" id="menu">                   
+                        <ul class="nav navber-nav">
+                            <li class="active"><a href="../../index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="../../games/Rock Paper Scissors/Rock, paper & scissors.html">Rock Paper & Scissors</a></li>
+                                    <li><a href="../../games/Picture Game/Picture Game.html">Picture Game</a></li>
+                                </ul>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="../pokemon/pokemon.html">Pokemon</a></li>
+                                    <li><a href="#">Spongebob Squarepants</a></li>
+                                </ul>   
+                            </li>
+                            <li><a href="../../diary/diary.php">Diary</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">
+
+            </div>
+                <div class="col-md-10">
+
+                    <div class="container">
+                    <div class="pull-right">
+                                Pause/Play music <span class="glyphicon glyphicon-pause" onclick="ppChange()" id="ppToggle">
+                            </div>
+                        <div class="" id="insideWell">
+                        <ul>
+                            <h2>Episodes</h2>
+                            <li>
+                                <div onclick="pp()" id="headings">Episode 01 </div><center>
+                                    <p id="details">Longpants!<br> Spongbob finally wears long pants and will it change his life?<br/>See here to find out now!</p>
+                                    <video width="1000" controls>
+                                      <source src="longpants.mp4" type="video/mp4">
+                                    </video>
+                                    </center>
+                                </div>
+                                  
+                            </li>
+                            
+                            
+                        </ul>
+                        <p id="comingSoon">More Episodes will be coming soon!</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-md-1">
+
+            </div>
+        </div>
+        <audio  loop autoplay id="spongebobTheme">
+        <source src="spongebob.mp3"></source>
+    </audio>
+    <script src="myscript.js"></script>
+    </body>    
+</html>

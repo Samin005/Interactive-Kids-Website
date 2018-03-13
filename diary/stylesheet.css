@@ -1,0 +1,219 @@
+body {
+	background-image: url('diaryBackground.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100%;
+}
+
+#menu {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  //background-color: #222;
+  font-family: Arial;
+
+}
+#menu ul li {
+  display: inline-block;
+  //background-color: red;
+  font-size: 3em;
+  margin-top: -1%;
+
+}
+
+#menu ul li a{
+  color: orange;
+}
+
+#menu ul li a:hover {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  transition: all 1.5s ease;
+  color: orange;
+}
+
+#drpcon{
+  background-color: #222;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  text-align: center;
+}
+
+#backbtn {
+	margin: 2%;
+	height: 104px;
+} 
+
+#backbtn:hover {
+	height: 120px;
+	transform: rotate(-7deg);
+}
+
+#catFace{
+  float: right;
+  transition: all 1s ease;
+}
+
+#catFace:hover{
+  border-radius: 2em;
+  transition: all 2s ease;
+  cursor: pointer;
+  width: 300px;
+}
+
+#loginMessage{
+  margin-top: 4%;
+  color: #7986CB;
+  font-size: 40px;
+  text-align: center;
+  font-family: Cursive, comic sans ms, Arial;
+}
+
+#signLog{
+  cursor: pointer;
+  //border: 1px solid #7986CB;
+  //border-radius: 3em;
+  //background-color: black;
+  font-size: 1.5em;
+}
+
+#signLog:hover{
+  font-size: 2em;
+  color: orange;
+  //background-color: white;
+  border-radius: 3em;
+}
+
+.Container{
+  width: 100%;
+  height: 100%;
+  margin-top: 4%;
+}
+
+.Container h1{
+    background-color: orange;
+    color: white;
+    padding: 2%;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+#showPasswordText{
+  font-size: 0.3em;
+}
+
+#password{
+  width: 90%;
+  border-radius: 4em;
+  margin: .5%;
+  float: left;
+  text-align: center;
+}
+#userName{
+  width: 90%;
+  float: left;
+  border-radius: 4em;
+  margin: .5%;
+  text-align: center;
+}
+
+#signORlogBtn{
+  border-radius: 2em;
+  background-color: orange;
+  color: white;
+  float: right;
+}
+
+#signORlog{
+  background-image: url('diary.jpg');
+}
+
+#dateContainer{
+  width: 10em;
+  height: 10em;
+  background-color: orange;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  opacity: 0.8;
+}
+
+#dearDiary{
+  font-size: 40px;
+  font-family: Cursive, comic sans ms, Arial;
+  background-color: white;
+  margin-top: 10%;
+  border-radius: .5em;
+  color: #7986CB;
+  //text-align: center;
+  opacity: 0.8;
+}
+
+#textArea{
+  width: 100%;
+  font-size: 30px;
+  font-family: Cursive, comic sans ms, Arial;
+  color: #7986CB;
+  border-top-left-radius: 1em;
+  //border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  opacity: 0.8;
+}
+
+#dateNum{
+  color: white;
+  font-size: 60px;
+  font-family: Cursive, comic sans ms, Arial;
+}
+
+#dateMonth{
+  color: white;
+  font-size: 20px;
+  font-family: Cursive, comic sans ms, Arial;
+}
+
+#congratz{
+  font-size: 40px;
+  font-family: Cursive, comic sans ms, Arial;
+  margin-bottom: 2%;
+}
+
+#done{
+  font-size: 2em;
+  background-color: orange;
+  color: white;
+  border-radius: 2em;
+}
+
+#done:hover{
+  font-size: 2em;
+  background-color: white;
+  color: orange;
+  border-radius: 2em;
+}
+
+#lgBtn{
+  font-size: 2em;
+  background-color: orange;
+  color: white;
+  border-radius: 2em;
+}
+
+#lgBtn:hover{
+  font-size: 2em;
+  background-color: white;
+  color: orange;
+  border-radius: 2em;
+}
+
+#viewBtn{
+  font-size: 1em;
+  background-color: orange;
+  color: white;
+  border-radius: 2em;
+}
+
+#viewBtn:hover{
+  font-size: 1em;
+  background-color: white;
+  color: orange;
+  border-radius: 2em;
+}

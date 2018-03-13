@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </head>
+    
+
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <nav class="navbar navbar-inverse" id="menu">                   
+                        <ul class="nav navber-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="games/Rock Paper Scissors/Rock, paper & scissors.html">Rock Paper & Scissors</a></li>
+                                    <li><a href="games/Picture Game/Picture Game.html">Picture Game</a></li>
+                                </ul>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="watch/pokemon/pokemon.html">Pokemon</a></li>
+                                    <li><a href="watch/spongbob/spongbob.html">Spongebob Squarepants</a></li>
+                                </ul>   
+                            </li>
+                            <li><a href="diary/diary.php">Diary</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="pull-right" id="catFace"><img class="img-responsive" src="catFace.png"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="letterContainer">
+            
+                <div class="pull-right" id="m"><img class="img-responsive" src="m.png"></div>
+            
+                <div class="col-md-1">
+                </div>
+                    <div class="a"><img class="img-responsive" src="imageedit_6_2581951957.png">
+                    <span id="c"><img class="img-responsive" src="c.png"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="b"><img class="img-responsive" src="oie_transparent.png"></div>
+                </div>    
+            
+                <div class="col-md-7">
+                    <div class="c"><img class="img-responsive" src="imageedit_6_2581951957.png"></div>
+                    <div class="pull-right" id="y"><img class="img-responsive" src="y.png"></div>
+                </div>
+            
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                     
+                </div>
+                <div class="col-md-6"  >
+                    <div id="homeContain">
+                        <div class="text-center">Welcome!</div><img class="img-responsive" src="cuteDog.png">orangeworld.com
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="cat" onclick="pp()"><img src="yellow cat.png" class="img-responsive" ></div>
+                </div>
+            </div>
+            
+        
+
+        <script>
+        function bigImg(x) {
+            //x.style.height = "350px";
+            //x.style.cursor = "pointer";
+            //x.style.transition = "all 1s ease";	
+            //x.style.backgroundColor = "orange";
+            //x.style.borderRadius = "30%";
+            //x.style.style.transform = "rotate(-360deg)";
+            //x.style.width = "64px";
+        }
+
+        function normalImg(x) {
+            //x.style.height = "150px";
+            //x.style.backgroundColor = "yellow";
+            //x.style.borderRadius = "0%";
+            //x.style.style.transform = "all 1s ease";
+            //x.style.width = "32px";
+        }
+        </script>
+    </body>
+    <audio loop autoplay id="rugratsTheme">
+        <source src="rugratsTheme.mp3"></source>
+    </audio>
+    <audio id="meow">
+        <source src="meow.mp3"></source>
+    </audio>
+    <script src="myscript.js"></script>
+</html>

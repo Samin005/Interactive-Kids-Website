@@ -1,0 +1,250 @@
+body {
+  background-color: orange;
+}
+
+#menu {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  //background-color: #222;
+
+}
+#menu ul li {
+  display: inline-block;
+  //background-color: red;
+  font-size: 3em;
+  margin-top: -1%;
+
+}
+
+#menu ul li a{
+  color: orange;
+}
+
+#menu ul li a:hover {
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  transition: all 1.5s ease;
+  color: orange;
+}
+
+#drpcon{
+  background-color: #222;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  text-align: center;
+}
+
+.letterContainer{
+  display: inline-block;
+}
+.a {
+  //display: inline-block;
+}
+.a img {
+display: inline-block;
+  width: 20%;
+  margin-top:5%;
+  //margin-left: 15%;
+  transition: all 1s ease;
+  transform: all 1s ease;
+  transform: rotate(-20deg);
+}
+ 
+.a img:hover {
+display: inline-block;
+  width: 30%;
+  cursor: pointer;
+  //opacity: 0.2;
+  //margin: 2%;
+  border-radius: 30%;
+  //background-color: orange;
+  transform: rotate(360deg);
+  
+}
+
+.b {
+  //display: inline-block;
+}
+.b img {
+display: inline-block;
+  width: 50%;
+  //margin-top:10%;
+  margin-top: 8%;
+  transition: all 1s ease;
+  transform: all 1s ease;
+  transform: rotate(0deg);
+  float: right;
+}
+ 
+.b img:hover {
+display: inline-block;
+  width: 80%;
+  cursor: pointer;
+  //opacity: 0.2;
+  //margin: 2%;
+  border-radius: 30%;
+  //background-color: orange;
+  transform: rotate(-20deg);
+  
+}
+
+.c {
+  //display: inline-block;
+}
+.c img {
+display: inline-block;
+  width: 30%;
+  margin-top:10%;
+  margin: 5%;
+  transition: all 1s ease;
+  transform: all 1s ease;
+  transform: rotate(-20deg);
+  float: left;
+}
+ 
+.c img:hover {
+display: inline-block;
+  width: 43%;
+  cursor: pointer;
+  opacity: 0.2;
+  //margin: 2%;
+  border-radius: 30%;
+
+  //background-color: orange;
+  transform: rotate(-360deg);
+  
+}
+
+.cat {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    margin-bottom: -38%;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.cat img {
+   width: 500px;
+   //height: 300px;
+}
+.cat img:hover {
+   width: 500px;
+   //height: 300px;
+   cursor: pointer;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:2em; top:-37em;}
+    25%  {background-color:yellow; left:60em; top:-90em;}
+    50%  {background-color:blue; left:10em; top:-95em;}
+    75%  {background-color:green; left:60em; top:-70em;}
+    100% {background-color:red; left:2em; top:-37em;}
+}
+
+#m img {
+display: inline-block;
+  width: 80%;
+  margin-top:10%;
+  margin: 5%;
+  transition: all 1s ease;
+  transform: all 1s ease;
+  transform: rotate(-20deg);
+  float: right;
+}
+ 
+#m img:hover {
+display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.2;
+  //margin: 2%;
+  float: right;
+  border-radius: 30%;
+  //background-color: orange;
+  transform: rotate(200deg);
+  
+}
+
+#y img {
+display: inline-block;
+  width: 80%;
+  margin-top:10%;
+  margin: 5%;
+  transition: all 1s ease;
+  transform: all 1s ease;
+  transform: rotate(-20deg);
+  float: right;
+}
+ 
+#y img:hover {
+display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.2;
+  //margin: 2%;
+  float: right;
+  border-radius: 30%;
+  //background-color: orange;
+  transform: rotate(200deg);
+  
+}
+
+#catFace img{
+  width: 277px;
+}
+
+#catFace img:hover{
+  width: 300px;
+  background-color: green;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 1s ease;
+  //cursor: pointer;
+}
+
+#c{
+  margin-left: 7%;
+}
+
+#homeContain{
+  background-color: orange;
+  color: white;
+  font-size: 40px;
+  margin: 2%;
+  border-radius: 4em;
+  height: 10%;
+}
+#homeContain:hover{
+  background-color: orange;
+  color: white;
+  font-size: 40px;
+  margin: 2%;
+  border-radius: 4em;
+  height: 80%;
+  cursor: pointer;
+  transition: all 1s ease;
+
+}
+
+#homeContain img{
+  background-color: orange;
+  transition: all 1s ease;
+  opacity: .1;
+  width: 600px;
+  height: 270px;
+}
+
+#homeContain img:hover{
+  background-color: orange;
+  border-radius: 4em;
+  opacity: 1;
+  width: 650px;
+  height: 300px;
+}

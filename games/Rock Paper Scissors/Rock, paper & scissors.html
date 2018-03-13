@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="myScript.js"></script>
+    </head>
+
+    <body style="background-color: orange;">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="javascript:history.back()"><img src="backButton.png" id="backbtn"></a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <nav class="navbar navbar-inverse" id="menu">                   
+                        <ul class="nav navber-nav">
+                            <li class="active"><a href="../../index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="Rock, paper & scissors.html">Rock Paper & Scissors</a></li>
+                                    <li><a href="../Picture Game/Picture Game.html">Picture Game</a></li>
+                                </ul>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="../../watch/pokemon/pokemon.html">Pokemon</a></li>
+                                    <li><a href="../../watch/spongbob/spongbob.html">Spongebob Squarepants</a></li>
+                                </ul>   
+                            </li>
+                            <li><a href="../../diary/diary.php">Diary</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron text-center">
+            <h2>
+                Welcome to our little rock, paper & scissors game!
+            </h2>
+            
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="rps.jpg" id="rpsPic" class="img-responsive">
+                </div>
+                <div class="col-md-6 text-center">
+                    <div id="header">Play <br/>Rock Paper<br/> & Scissors!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="picktext">Pick one from below!</div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                    <img src="rock.gif" id="rock" onclick="rps('rock')" class="img-responsive" title="Pick Rock!">
+                    
+                </div>
+                <div class="col-md-6">
+                    
+                    <img src="paper.png" id="paper" onclick="rps('paper')" class="img-responsive" title="Pick Papers!">
+                   
+                </div>
+                <div class="col-md-12">
+                    
+                    <img src="scissors.png" class="img-responsive center-block" id="scissor" onclick="rps('scissors')" title="Pick Scissors!">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron text-center">
+            <h3 id="userScore" class="text-right"></h3>
+            <h3 id="computerScore" class="text-right"></h3>
+            <h2 id="userChoice"></h2>
+            <h2 id="computerChoice"></h2>
+            <h1 id="result"></h2>
+            
+        </div>
+        <audio loop autoplay id="rugratsTheme">
+            <source src="../../rugratsTheme.mp3"></source>
+        </audio>
+    </body>    
+</html>

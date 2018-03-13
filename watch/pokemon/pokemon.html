@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="myscript.js"></script>
+
+    </head>
+
+    <body style="background-color: orange;">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="javascript:history.back()"><img src="backButton.png" id="backbtn"></a>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <nav class="navbar navbar-inverse" id="menu">                   
+                        <ul class="nav navber-nav">
+                            <li class="active"><a href="../../index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="../../games/Rock Paper Scissors/Rock, paper & scissors.html">Rock Paper & Scissors</a></li>
+                                    <li><a href="../../games/Picture Game/Picture Game.html">Picture Game</a></li>
+                                </ul>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="drpcon">
+                                    <li><a href="#">Pokemon</a></li>
+                                    <li><a href="../spongbob/spongbob.html">Spongebob Squarepants</a></li>
+                                </ul>   
+                            </li>
+                            <li><a href="../../diary/diary.php">Diary</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">
+
+            </div>
+                <div class="col-md-10">
+
+                    <div class="container" style="">
+                        <div class="well" id="insideWell">
+                        <ul>
+                            <h2>Episodes</h2>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="pp()">Episode 01 <span class="caret"></span></a>
+                                <div class="dropdown-menu" id="vContain">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-reponsive-item" src="https://www.youtube.com/embed/k8_xSG2saCk" ></iframe>
+                                    </div>
+                                </div>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="pp()">Episode 02 <span class="caret"></span></a>
+                                <div class="dropdown-menu" id="vContain">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-reponsive-item" src="https://www.youtube.com/embed/N0dtVz9HAmY" ></iframe>
+                                    </div>
+                                </div>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="pp()">Episode 03 <span class="caret"></span></a>
+                                <div class="dropdown-menu" id="vContain">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-reponsive-item" src="https://www.youtube.com/embed/juUDkmKMYK8" ></iframe>
+                                    </div>
+                                </div>   
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" onclick="pp()">Episode 04 <span class="caret"></span></a>
+                                <div class="dropdown-menu" id="vContain">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-reponsive-item" src="https://www.youtube.com/embed/x-oX6isLDis" ></iframe>
+                                    </div>
+                                </div>   
+                            </li>
+                            <div class="pull-right">
+                                Pause/Play music <span class="glyphicon glyphicon-pause" onclick="ppChange()" id="ppToggle">
+                            </div>
+                        </ul>
+                        <p>More Episodes will be coming soon!</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-md-1">
+
+            </div>
+        </div>
+        <audio controls loop autoplay id="pokemonTheme">
+            <source src="pokemonTheme.mp3"></source>
+        </audio>
+    </body>    
+</html>
